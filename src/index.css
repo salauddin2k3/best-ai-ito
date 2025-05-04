@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+    background-color: #020206;
+    color: white
+}
+
+.font-sora {
+    font-family: "Sora", sans-serif;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.color-f1 {
+    color: #F1F1F4;
+}
+
+.color-b6 {
+    color: #B6B6BC;
+}
