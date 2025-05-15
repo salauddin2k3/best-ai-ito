@@ -8,6 +8,8 @@ import FirstImageBG from "../src/assets/bg-1.png"
 import SecondImageBG from "../src/assets/bg-2.png"
 import ThirdImageBG from "../src/assets/bg-3.png"
 import MindBe from "./components/MindBe/MindBe"
+import AskEcon from "./components/AskEcon/AskEcon"
+import Deflation from "./components/Deflation/Deflation"
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
           <AppCard></AppCard>
           <Exponentially></Exponentially>
           <MindBe></MindBe>
+          <AskEcon></AskEcon>
+          <Deflation></Deflation>
         </div>
       </div>
     </>
