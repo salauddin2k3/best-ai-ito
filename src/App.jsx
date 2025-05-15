@@ -10,6 +10,7 @@ import ThirdImageBG from "../src/assets/bg-3.png"
 import MindBe from "./components/MindBe/MindBe"
 import AskEcon from "./components/AskEcon/AskEcon"
 import Deflation from "./components/Deflation/Deflation"
+import Utility from "./components/UtilityComponent/Utility"
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <MindBe></MindBe>
           <AskEcon></AskEcon>
           <Deflation></Deflation>
+          <Utility></Utility>
         </div>
       </div>
     </>
