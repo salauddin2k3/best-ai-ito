@@ -12,6 +12,7 @@ import AskEcon from "./components/AskEcon/AskEcon"
 import Deflation from "./components/Deflation/Deflation"
 import Utility from "./components/UtilityComponent/Utility"
 import Ecosystem from "./components/Ecosystem/Ecosystem"
+import CollaborativeBrain from "./components/CollaborativeBrain/CollaborativeBrain"
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Deflation></Deflation>
           <Utility></Utility>
           <Ecosystem></Ecosystem>
+          <CollaborativeBrain></CollaborativeBrain>
         </div>
       </div>
     </>
