@@ -4,9 +4,15 @@ import Exponentially from "./components/Exponentially/Exponentially"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
 import Test from "./components/Test/Test"
-import FirstImageBG from "../src/assets/bg-1.png"
-import SecondImageBG from "../src/assets/bg-2.png"
-import ThirdImageBG from "../src/assets/bg-3.png"
+
+// Background Images
+import ImageBG1 from "../src/assets/bg/bg-1.png"
+import ImageBG2 from "../src/assets/bg/bg-2.png"
+import ImageBG3 from "../src/assets/bg/bg-3.png"
+import ImageBG4 from "../src/assets/bg/bg-4.png"
+import ImageBG5 from "../src/assets/bg/bg-5.png"
+
+
 import MindBe from "./components/MindBe/MindBe"
 import AskEcon from "./components/AskEcon/AskEcon"
 import Deflation from "./components/Deflation/Deflation"
@@ -22,11 +28,11 @@ function App() {
       <div className="">
         <div 
         style={{ 
-          backgroundImage: `url(${FirstImageBG}), url(${SecondImageBG}), url(${ThirdImageBG})`,
-          backgroundRepeat: "no-repeat, no-repeat, no-repeat",
-          backgroundPositionX: "right, left, 8%",
-          backgroundPositionY: "top, 15%, 40%",
-          backgroundSize: "609px"
+          backgroundImage: `url(${ImageBG1}), url(${ImageBG2}), url(${ImageBG3}), url(${ImageBG5}), url(${ImageBG4})`,
+          backgroundRepeat: "no-repeat, no-repeat, no-repeat, no-repeat, no-repeat",
+          backgroundPositionX: "right, left, 8%, center, 81%",
+          backgroundPositionY: "top, -.1%, 6.5%, -2%, 10%",
+          backgroundSize: "609px, 750px, 790px, 1800px, 145px"
           }} >
           <Navbar></Navbar>
           <Hero></Hero>
