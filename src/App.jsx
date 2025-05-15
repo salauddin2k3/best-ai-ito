@@ -11,6 +11,7 @@ import MindBe from "./components/MindBe/MindBe"
 import AskEcon from "./components/AskEcon/AskEcon"
 import Deflation from "./components/Deflation/Deflation"
 import Utility from "./components/UtilityComponent/Utility"
+import Ecosystem from "./components/Ecosystem/Ecosystem"
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <AskEcon></AskEcon>
           <Deflation></Deflation>
           <Utility></Utility>
+          <Ecosystem></Ecosystem>
         </div>
       </div>
     </>
