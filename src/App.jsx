@@ -7,6 +7,7 @@ import Test from "./components/Test/Test"
 import FirstImageBG from "../src/assets/bg-1.png"
 import SecondImageBG from "../src/assets/bg-2.png"
 import ThirdImageBG from "../src/assets/bg-3.png"
+import MindBe from "./components/MindBe/MindBe"
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Companies></Companies>
           <AppCard></AppCard>
           <Exponentially></Exponentially>
+          <MindBe></MindBe>
         </div>
       </div>
     </>
