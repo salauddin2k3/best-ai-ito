@@ -1,9 +1,11 @@
 import React from 'react';
 import rightSideImage from '../../assets/app-right.png'
+import appBgImage from '../../assets/bg/app-bg.png'
 
 const AppCard = () => {
     return (
-        <div className='mt-32 container mx-auto w-fit'>
+        <div className='mt-32 container mx-auto w-fit relative'>
+            <img className='rounded-[20px] absolute' src={appBgImage} alt="" />
             <div className='border border-[#ffffff0f] border-solid pl-20 pr-7 py-11 rounded-[20px] bg-[#ffffff08] backdrop-blur-[7.5px]'>
                 <div className='flex items-center gap-16'>
                     <div>
